@@ -27,4 +27,5 @@ for i in range(10):
 
 
 def test_some_docstring(arg1):
+    "Some invalid docstring"
     print("Well this is cool@!")
