@@ -31,3 +31,20 @@ for i in range(10):
 def test_some_docstring(arg1):
     "Some invalid docstring"
     print("Well this is cool@!")
+
+
+def test_no_docstring(arg1):
+    print("Well this is cool@!")
+
+
+def test_some_docstring(arg1):
+    """Some invalid docstring
+    And Smething right below.
+
+    Parameters
+    ---------
+    arg1 : str
+        The first argument
+
+    """
+    print("Well this is cool@!")
